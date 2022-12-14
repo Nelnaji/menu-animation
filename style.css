@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav {
+  background-color: rgb(56, 53, 209);
+
+  height: 100vh;
+}
+
+ul {
+  height: 100vh;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  justify-content: space-around;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
