@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: Arial;
   min-height: 100vh;
@@ -31,8 +34,28 @@ ul {
   width: 15vw;
   justify-content: space-around;
   text-align: center;
+  align-items: center;
 }
 
 main {
   display: flex;
+}
+
+hr {
+  width: 20rem;
+}
+.nav-item {
+  position: relative;
+}
+.nav-link:before {
+  position: absolute;
+  content: "";
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50%;
+  top: 50%;
+  left: -2em;
+  transform: translateY(-50%);
 }
